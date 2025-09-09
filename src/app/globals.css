@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0b0b;
+  --fg: #eaeaea;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.gradient-gold {
+  background: linear-gradient(45deg, #D4AF37, #FFD700);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
